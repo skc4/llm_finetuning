@@ -43,4 +43,6 @@ Clone this repository:
 ## Evaluation
 
 Evaluating generative models is challenging due to the subjective nature of generated content. The project emphasizes a combination of manual inspection and error analysis for comprehensive evaluation.
-Here. ARC is utilized for general model performance insights.
+Here. 
+
+ARC is utilized for general model performance insights. However, the ARC benchmark is designed to assess general reasoning abilities through grade school science questions, making it less suitable for evaluating fine-tuned models specialized in specific tasks (In this case company specific questioning and answering). Fine-tuned models are optimized for particular domains or tasks, where ARC's focus on broad reasoning may not reflect the model's performance in its intended application. Therefore, for fine-tuned models, domain-specific metrics, expert evaluation, and user studies offer more relevant and nuanced insights into their effectiveness and utility. Tailored evaluation strategies are essential to accurately assess a fine-tuned model's capabilities within its specific context.
