@@ -1,6 +1,6 @@
 # Fine-tuning Large Language Models (LLMs) for Generative Tasks
 
-This project demonstrates the end-to-end process of fine-tuning pre-trained large language models (LLMs) for generative tasks using PyTorch, Hugging Face Transformers, and the Llama library. By following through, you'll learn how to prepare your data, train your model to improve its performance on specific tasks, and evaluate its effectiveness.
+This project demonstrates the end-to-end process of fine-tuning pre-trained large language models (LLMs) for generative tasks using PyTorch, Hugging Face Transformers, and the Llama library.
 
 ## Project Overview
 
