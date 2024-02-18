@@ -1,11 +1,12 @@
 # Fine-tuning Large Language Models (LLMs) for Generative Tasks
 
-This project demonstrates the end-to-end process of fine-tuning pre-trained large language models (LLMs) for generative tasks using PyTorch, Hugging Face Transformers, and the Llama library.
+This project demonstrates the end-to-end process of fine-tuning pre-trained large language models (LLMs) for generative tasks (question and answer) using PyTorch, Hugging Face Transformers, and the Llama library.
 
 ## Project Overview
 
-Fine-tuning LLMs involves adjusting a pre-trained model on a relatively small dataset to specialize it for a specific task. This project covers:
+Fine-tuning LLMs involves adjusting a pre-trained model on a relatively small dataset to specialize it for a specific task. 
 
+This project covers:
 - Data preparation best practices for high-quality, diverse datasets.
 - Training strategies, including setting hyperparameters and using the Llama library for efficient fine-tuning.
 - Evaluation techniques for generative models, emphasizing the importance of human evaluation and error analysis.
@@ -29,10 +30,10 @@ Clone this repository:
 
 ## Data Preparation
 
-1. **Collection**: Gather high-quality, diverse data relevant to your task.
-2. **Concatenation and Prompting**: Organize your data with appropriate prompt templates.
+1. **Collection**: Use Lamini dataset to finetune LLM model to act as company specific question and answer model.
+2. **Concatenation and Prompting**: Use question and answer prompt templates.
 3. **Tokenization**: Convert text data into numerical tokens using the correct tokenizer.
-4. **Splitting**: Divide your dataset into training and testing sets.
+4. **Splitting**: Divide the dataset into training and testing sets.
 
 ## Training
 
